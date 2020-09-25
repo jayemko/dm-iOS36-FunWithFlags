@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		3CCB867D251C0621009F4C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB867C251C0621009F4C79 /* AppDelegate.swift */; };
 		3CCB867F251C0621009F4C79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB867E251C0621009F4C79 /* SceneDelegate.swift */; };
-		3CCB8681251C0621009F4C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB8680251C0621009F4C79 /* ViewController.swift */; };
 		3CCB8684251C0621009F4C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB8682251C0621009F4C79 /* Main.storyboard */; };
 		3CCB8686251C0623009F4C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB8685251C0623009F4C79 /* Assets.xcassets */; };
 		3CCB8689251C0623009F4C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB8687251C0623009F4C79 /* LaunchScreen.storyboard */; };
+		3CCB869A251C0B30009F4C79 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB8699251C0B30009F4C79 /* Country.swift */; };
+		3CCB86A3251C0D9C009F4C79 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB86A2251C0D9C009F4C79 /* Game.swift */; };
+		3CCB86A6251C0DA6009F4C79 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB86A5251C0DA6009F4C79 /* GameController.swift */; };
+		3CCB86A9251C12E5009F4C79 /* FlagError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB86A8251C12E5009F4C79 /* FlagError.swift */; };
+		3CCB86AC251C13F5009F4C79 /* FlagGameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB86AB251C13F5009F4C79 /* FlagGameTableViewController.swift */; };
+		3CCB86AF251C53CC009F4C79 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB86AE251C53CC009F4C79 /* AnswerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C0E7DB0251CF72F009A73B3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3CCB8679251C0621009F4C79 /* Fun With Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun With Flags.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCB867C251C0621009F4C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CCB867E251C0621009F4C79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CCB8680251C0621009F4C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CCB8683251C0621009F4C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CCB8685251C0623009F4C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CCB8688251C0623009F4C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CCB868A251C0623009F4C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCB8699251C0B30009F4C79 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		3CCB86A2251C0D9C009F4C79 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		3CCB86A5251C0DA6009F4C79 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		3CCB86A8251C12E5009F4C79 /* FlagError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagError.swift; sourceTree = "<group>"; };
+		3CCB86AB251C13F5009F4C79 /* FlagGameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagGameTableViewController.swift; sourceTree = "<group>"; };
+		3CCB86AE251C53CC009F4C79 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +51,7 @@
 		3CCB8670251C0621009F4C79 = {
 			isa = PBXGroup;
 			children = (
+				3C0E7DB0251CF72F009A73B3 /* README.md */,
 				3CCB867B251C0621009F4C79 /* Fun With Flags */,
 				3CCB867A251C0621009F4C79 /* Products */,
 			);
@@ -56,15 +68,76 @@
 		3CCB867B251C0621009F4C79 /* Fun With Flags */ = {
 			isa = PBXGroup;
 			children = (
+				3CCB8695251C0642009F4C79 /* Helpers */,
+				3CCB8694251C063E009F4C79 /* Models */,
+				3CCB8693251C063A009F4C79 /* Views */,
+				3CCB8692251C0632009F4C79 /* Controllers */,
+				3CCB8691251C062D009F4C79 /* Resources */,
+				3CCB8682251C0621009F4C79 /* Main.storyboard */,
+			);
+			path = "Fun With Flags";
+			sourceTree = "<group>";
+		};
+		3CCB8691251C062D009F4C79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3CCB867C251C0621009F4C79 /* AppDelegate.swift */,
 				3CCB867E251C0621009F4C79 /* SceneDelegate.swift */,
-				3CCB8680251C0621009F4C79 /* ViewController.swift */,
-				3CCB8682251C0621009F4C79 /* Main.storyboard */,
 				3CCB8685251C0623009F4C79 /* Assets.xcassets */,
 				3CCB8687251C0623009F4C79 /* LaunchScreen.storyboard */,
 				3CCB868A251C0623009F4C79 /* Info.plist */,
 			);
-			path = "Fun With Flags";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3CCB8692251C0632009F4C79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB8697251C0651009F4C79 /* ModelControllers */,
+				3CCB8696251C0648009F4C79 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3CCB8693251C063A009F4C79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB86AE251C53CC009F4C79 /* AnswerTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CCB8694251C063E009F4C79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB8699251C0B30009F4C79 /* Country.swift */,
+				3CCB86A2251C0D9C009F4C79 /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CCB8695251C0642009F4C79 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB86A8251C12E5009F4C79 /* FlagError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3CCB8696251C0648009F4C79 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB86AB251C13F5009F4C79 /* FlagGameTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3CCB8697251C0651009F4C79 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB86A5251C0DA6009F4C79 /* GameController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CCB8681251C0621009F4C79 /* ViewController.swift in Sources */,
+				3CCB869A251C0B30009F4C79 /* Country.swift in Sources */,
+				3CCB86A3251C0D9C009F4C79 /* Game.swift in Sources */,
+				3CCB86A9251C12E5009F4C79 /* FlagError.swift in Sources */,
+				3CCB86AC251C13F5009F4C79 /* FlagGameTableViewController.swift in Sources */,
 				3CCB867D251C0621009F4C79 /* AppDelegate.swift in Sources */,
+				3CCB86A6251C0DA6009F4C79 /* GameController.swift in Sources */,
+				3CCB86AF251C53CC009F4C79 /* AnswerTableViewCell.swift in Sources */,
 				3CCB867F251C0621009F4C79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +366,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 268JS24689;
-				INFOPLIST_FILE = "Fun With Flags/Info.plist";
+				INFOPLIST_FILE = "Fun With Flags/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +385,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 268JS24689;
-				INFOPLIST_FILE = "Fun With Flags/Info.plist";
+				INFOPLIST_FILE = "Fun With Flags/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
